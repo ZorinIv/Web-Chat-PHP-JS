@@ -1,0 +1,32 @@
+<div class="groups">
+    <div class="addGroup">
+    <h3>Создать группу</h3>
+    <input id="group" type="text" placeholder="Введите имя группы">
+    <button  class="button" onclick="addGroup()">Создать</button><br>
+    </div>
+    <div id="groups"></div>
+</div>
+
+<div id="contactsGroup" class="contactsGroup">
+    <div class="addContact"></div>
+        <h3>Добавить контакт в группу</h3>
+        <input id="contact" type="text" class="form-input" placeholder="Введите email контакта">
+        <button  class="button" onclick="addContact()">Добавить</button><br>
+        <div id="contacts"></div> 
+</div>
+
+<div class="messagesGroup">
+    <div id="chat"></div>
+    <div class="sendMessage">
+        <input type="text" name="sendMessage" id="message" placeholder="Введите сообщение">
+        <button name="send" class="button" onclick="sendMessage()">Отправить</button>   
+    </div>
+    </div>
+    
+
+      
+</div>
+
+<script src="./pages/group.js"></script>
+<script src="./pages/groupcontacts.js"></script>
+<script src="./pages/groupmessage.js"></script>
